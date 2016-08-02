@@ -84,3 +84,17 @@ console.log(electron)
 // spawn electron
 var child = proc.spawn(electron)
 ```
+
+## Note
+
+IF 
+```Downloading electron-v1.3.1-win32-x64.zip
+Error: tunneling socket could not be established, statusCode=407
+```
+THEN
+```
+1. Download electron-v1.3.1-win32-x64.zip
+2. Copy to cd C:\Users\USERNAME\.electron
+3.  now install
+```
+
